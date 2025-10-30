@@ -1,6 +1,6 @@
-from conectapet.controllers.clinica import Clinica
-from conectapet.models.tutor import Tutor
-from conectapet.models.veterinario import Veterinario
+from controllers.clinica import Clinica
+from models.tutor import Tutor
+from models.veterinario import Veterinario
 
 def menu():
     clinica = Clinica("ConectaPet", "00.000.000/0001-00")
