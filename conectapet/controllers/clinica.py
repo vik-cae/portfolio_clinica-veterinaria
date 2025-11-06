@@ -1,8 +1,8 @@
-from conectapet.models.tutor import Tutor
-from conectapet.models.veterinario import Veterinario
-from conectapet.models.consulta import Consulta
-from conectapet.models.animal import Animal
-from conectapet.persistence.storage import salvar_linha, ler_linhas
+from models.tutor import Tutor
+from models.consulta import Consulta
+from models.animal import Animal
+from models.veterinario import Veterinario
+from persistence.storage import salvar_linha, ler_linhas
 
 class Clinica:
     def __init__(self, nome, cnpj):

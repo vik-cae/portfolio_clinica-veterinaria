@@ -1,4 +1,4 @@
-from conectapet.models.prescricao import Prescricao
+from models.prescricao import Prescricao
 
 
 class Consulta:

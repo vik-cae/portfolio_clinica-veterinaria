@@ -1,4 +1,4 @@
-from models.pessoa import Pessoa
+from models.pessoa import Pessoa    
 
 class Veterinario(Pessoa):
     def __init__(self, id_, nome, telefone, email, crmv, especialidade):

@@ -1,12 +1,13 @@
 from models.pessoa import Pessoa
 
+
 class Tutor(Pessoa):
     def __init__(self, id_, nome, telefone, email, cpf, endereco):
         super().__init__(id_, nome, telefone, email)
         self.cpf = cpf
         self.endereco = endereco
         self.animais = []  
-        
+
     def adicionar_animal(self, animal):
         self.animais.append(animal)
 
